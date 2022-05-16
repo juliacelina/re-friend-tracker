@@ -427,7 +427,6 @@ export class GuiModel {
                         "form": {
                             "form": "FriendForm"
                         }
-                        
                     },
                     ]
                    }
