@@ -247,7 +247,7 @@ export class GuiModel {
                         {
                             "type": "button",
                             "name": "Activity",
-                            "icon": "fa-cubes",
+                            "icon": "fa-calendar",
                             "color": "red",
                             "page": "activitypage"
 
@@ -344,7 +344,7 @@ export class GuiModel {
                     {
                     "type": "newButton",
                     "name": "NewActivity",
-                    "icon": "red",
+                    "icon": "fa-calendar",
                     "color": "green",
                     "form": {
                     "form": "AddActivityForm"
@@ -352,7 +352,7 @@ export class GuiModel {
                     },
                     {
                         "type": "list",
-                        "icon": "red",
+                        "icon": "fa-calendar",
                         "color": "blue",
                         "search": true,
                         "url": "/activity",
@@ -386,7 +386,7 @@ export class GuiModel {
                         },
                     {
                         "type": "list",
-                        "icon": "",
+                        "icon": "fa-calendar",
                         "color": "blue",
                         "search": true,
                         "url": "/friend/:friendKey/activity",
@@ -404,7 +404,7 @@ export class GuiModel {
                     },
                     {
                         "type": "list",
-                        "icon": "fa-user",
+                        "icon": "fa-calendar",
                         "color": "blue",
                         "url": "/location/:locationKey/activity",
                         
