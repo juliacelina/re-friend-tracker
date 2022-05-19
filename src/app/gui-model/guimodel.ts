@@ -369,7 +369,7 @@ export class GuiModel {
                     {
                     "type": "newButton",
                     "name": "AddActivity",
-                    "icon": "fa-user",
+                    "icon": "fa-calendar",
                     "color": "green",
                     "form": {
                     "form": "AddActivityForm"
